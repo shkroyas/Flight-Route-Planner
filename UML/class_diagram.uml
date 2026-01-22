@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1185.446107188385" y="1623.8448696262917">Node</node>
+    <node x="1112.7918121793598" y="1505.1676590869372">AStar</node>
+    <node x="720.713737051238" y="1148.0069441258695">InformedSearch</node>
+    <node x="1115.793192494988" y="336.5493169319824">BFS</node>
+    <node x="453.8044357207424" y="338.0991025827144">DFS</node>
+    <node x="563.7503071754105" y="1618.1585395935485">Helper</node>
+    <node x="374.52269815082445" y="1506.290525705072">BestF</node>
+    <node x="731.4537926729386" y="502.24283792203335">UninformedSearch</node>
+    <node x="837.0" y="764.0">GeneralSearch</node>
+    <node x="373.3371294317277" y="1613.5919193904974">A1Main</node>
+    <node x="1384.4608285343368" y="1623.8448696262917">State</node>
+    <node x="1590.940485575508" y="1625.6898910612188">Problem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="BestF" target="InformedSearch">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="DFS" target="UninformedSearch">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="AStar" target="InformedSearch">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="BFS" target="UninformedSearch">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="UninformedSearch" target="GeneralSearch">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="InformedSearch" target="GeneralSearch">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Orthogonal" zoom="0.5419991231915826" x="1200.9609318126668" y="1346.565720294427" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
